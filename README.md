@@ -32,7 +32,7 @@ install keras version 2.2.5 from [keras](https://keras.io/)
 Alternatively this pre-trained model can be downloaded from [here](https://drive.google.com/open?id=1-MKN-nQj6NOX-J9P9UOqp5mjqfMynWcC)
 4. Run [heatmapGeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Initial_Data_Preprocessing) from Initial_Data_Preprocessing folder for generating Heatmaps from FiWi eye fixation data.  
 5. After training, start training FiWi data by running "website_saliency_prediction_final.py", from the [same folder](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts). Please check the proper path of the FiWi dataset,generated Heatmaps and pretrained GDI model to avoid path errors.
-6. Use the saved model by followning previous section B.
+6. Use the saved model by followning section B.
 
 ## D. MACHINE LEARNING ALGORITHMS FOR WEBSITE SALIENCY PREDICTION:
 Run the scripts in folowing order to get the saliency predictions using random forest and SVM.
