@@ -19,7 +19,7 @@ install tensorflow version 1.15.0 from [Tensorflow](https://www.tensorflow.org/i
 
 install keras version 2.2.5 from [keras](https://keras.io/)
 
-## B. USING PRE-TRAINED MODEL FOR WBSITE SALIENCY ANALYSIS:
+## B. USING PRE-TRAINED MODEL FOR WEBPAGE SALIENCY ANALYSIS:
 1. Download this repository
 2. Download the Pre-trained model for FCN-16s from [here](https://drive.google.com/open?id=1smxAlcvbkOpRBQb4ClfcAkgfaub6aMgo)
 3. Provide correct path for the downloaded model. Run [Model_Performance_on_Test_Images.ipynb](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Prediction_and_Analysis)
