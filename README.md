@@ -10,5 +10,13 @@ P.S. This whole project has been tested on Google Colab.
 ## REQUIREMENTS:
 To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2.5
 
+## USING PRE-TRAINED MODEL FOR SALIENCY ANALYSIS:
+1. Download this repository
+2. Download the Pre-trained model for FCN-16s from https://drive.google.com/open?id=1x1vT0dWqRruLUoPpcWI3yj04i8Dahfq0
+3. Run .\Webpage_Saliency_Prediction\Prediction_and_Analysis\Model_Performance_on_Test_Images.ipynb
+
+### fdzbc
+
+
 
 
