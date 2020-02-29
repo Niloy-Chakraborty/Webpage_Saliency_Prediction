@@ -1,0 +1,41 @@
+Folder Architecture:
+---------------------------
+
+Website Saliency Prediction
+  |
+  |-----Initial_Data_Preprocessing
+  |       |----heatmapGeneration.py
+  |
+  |-----Machine Learning Approach
+  |       |----datafilegeneration.py
+  |       |----datasegregation.py
+  |       |----randomforest.py
+  |       |----saliency.py
+  |       |----svm.py
+  |       
+  |-----Model Training Scripts
+  |       |----GDI_FCN_TRAIN.ipynb
+  |       |---- WEBSITE_SALIENCY_PREDICTION_Final.ipynb
+  |
+  |-----Prediction_and_Analysis
+  |       |----Evaluation Metric Scripts
+  |       |       |----AUC_Calculation.ipynb
+  |       |       |----cross_correlation_and_NSS_Calculation.ipynb
+  |       |----Evaluation Data
+  |       |       |----Deep Gaze II (predited data)
+  |       |       |----FCN16 (predited data)
+  |       |       |----Ground_Truth_Eyemap (Test)
+  |       |       |----Test case Stimuli
+  |       |       |----etc...
+  |       |----Evaluation Result
+  |       |----Generalization Scripts
+  |       |       |----AUC_Calculation.ipynb
+  |       |       |----cross_correlation_and_NSS_Calculation.ipynb
+  |       |----Generalization Data
+  |       |       |----FiWi (test stimuli, test grounf truth and predited data)
+  |       |       |----MASSVIS (test stimuli, test grounf truth and predited data)
+  |       |       |----MIT Data (test stimuli, test grounf truth and predited data)
+  |       |----Generalization Results
+  |-----Pretrained models
+  
+ 
