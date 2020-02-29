@@ -2,7 +2,7 @@
 
 ![Saliency Analysis](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/blob/master/Readme%20Images/SaliencyAnalysis.png)
 
-In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predict the saliency of webpages. Given an input Webpage image, the proposed model is capable of generating its saliency map.
+In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predict the saliency of webpages, following [this](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) implementation. Given an input Webpage image, the proposed model is capable of generating its saliency map.
 
 
 P.S. This whole project has been performed and tested on Google Colab. [Colab Access](https://drive.google.com/open?id=19EOE1yqbsomld394ZsosZisnvPcRYdTT)
