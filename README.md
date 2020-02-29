@@ -1,6 +1,6 @@
 # Webpage_Saliency_Prediction
 
-In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predictthe saliency of webpages. Given an input Webpage image, the proposed model is capable of generating its saliency map.
+In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predict the saliency of webpages. Given an input Webpage image, the proposed model is capable of generating its saliency map.
 
 
 P.S. This whole project has been tested on Google Colab.
@@ -26,8 +26,8 @@ install keras version 2.2.5 from [keras](https://keras.io/)
 3. From [Model Training Scripts](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts) folder, start training GDI model at first by running "GDI_FCN_TRAIN.ipynb" with GDI dataset. 
 Alternatively this pre-trained model can be downloaded from [here](https://drive.google.com/open?id=1-MKN-nQj6NOX-J9P9UOqp5mjqfMynWcC)
 4. Run [heatmapGeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Initial_Data_Preprocessing) from Initial_Data_Preprocessing folder for generating Heatmaps from FiWi eye fixation data.  
-5. After training, start training your FiWi data by running "website_saliency_prediction_final.py", from the [same folder](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts). Please check the proper path of the FiWi dataset,generated Heatmaps and pretrained GDI model to avoid path errors.
-6. Use the saved model followning previous section B.
+5. After training, start training FiWi data by running "website_saliency_prediction_final.py", from the [same folder](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts). Please check the proper path of the FiWi dataset,generated Heatmaps and pretrained GDI model to avoid path errors.
+6. Use the saved model by followning previous section B.
 
 ## D. MACHINE LEARNING ALGORITHMS FOR WEBSITE SALIENCY PREDICTION:
 Run the scripts in folowing order to get the saliency predictions using random forest and SVM.
