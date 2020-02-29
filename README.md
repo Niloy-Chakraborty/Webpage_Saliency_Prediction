@@ -9,6 +9,8 @@ P.S. This whole project has been performed and tested on Google Colab. [Colab Ac
 
 # Guidelines to use this Repository
 
+## [DIRECTORY ARCHITECTURE:](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/blob/master/Directory%20Architecture.txt)
+
 ## A. REQUIREMENTS:
 To avoid version conflicts, 
 
