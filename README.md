@@ -1,3 +1,13 @@
 # Webpage_Saliency_Prediction
 
-In this project, we have done a focused study on the saliencyanalysis for webpages using FiWi dataset [21] and propose a FullyConvolutional Network (FCN) [18] based architecture to predictthe saliency of webpages. Given an input Webpage image, the pro-posed model is capable of generating its saliency map. Rigoroussimulations and performance evaluation of the model justifies thatFCN-based architecture performs with Correlation score 0.60 andNSS score 0.985, which are competitive to other state-of-the-artsaliency models
+In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predictthe saliency of webpages. Given an input Webpage image, the proposed model is capable of generating its saliency map.
+
+
+P.S. This whole project has been tested on Google Colab.
+
+# Guidelines to use this Repository
+
+REQUIREMENTS: To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2.5
+
+## REQUIREMENTS
+
