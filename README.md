@@ -8,7 +8,11 @@ P.S. This whole project has been tested on Google Colab.
 # Guidelines to use this Repository
 
 ## A. REQUIREMENTS:
-To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2.5
+To avoid version conflicts, 
+
+install tensorflow version 1.15.0 from [Tensorflow](https://www.tensorflow.org/install/pip)
+
+install keras version 2.2.5 from [keras](https://keras.io/)
 
 ## B. USING PRE-TRAINED MODEL FOR WBSITE SALIENCY ANALYSIS:
 1. Download this repository
