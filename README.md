@@ -1,5 +1,7 @@
 # Webpage_Saliency_Prediction
 
+![Saliency Analysis](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/blob/master/Readme%20Images/SaliencyAnalysis.png)
+
 In this project, we have done a focused study on the saliency analysis for webpages using FiWi dataset and propose a Fully Convolutional Network (FCN) based architecture to predict the saliency of webpages. Given an input Webpage image, the proposed model is capable of generating its saliency map.
 
 
