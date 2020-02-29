@@ -7,7 +7,8 @@ P.S. This whole project has been tested on Google Colab.
 
 # Guidelines to use this Repository
 
-REQUIREMENTS: To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2.5
+## REQUIREMENTS:
+To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2.5
 
-## REQUIREMENTS
+
 
