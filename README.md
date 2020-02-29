@@ -16,7 +16,7 @@ To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2
 3. Run .\Webpage_Saliency_Prediction\Prediction_and_Analysis\Model_Performance_on_Test_Images.ipynb
 4. For computing AUC, CC and NSS scores, codes are provided in "Prediction_and_Analysis" folder. From "Evaluation Metric Scripts" run the auc_calculation.py for computing AUC score, and cross_correlation_and_nss_calculation.py for calculating CC/NSS score.
 
-## C. FOR TRAINING YOUR OWN DATA:
+## C. FOR TRAINING MODEL WITH YOUR OWN DATA:
 1. Download GDI dataset from https://github.com/cvzoya/visimportance/tree/master/data
 2. Download FiWi dataset from https://www-users.cs.umn.edu/~qzhao/webpage_saliency.html
 3. From "Model Training Scripts" folder, start training GDI model at first by running "GDI_FCN_TRAIN.ipynb" . 
