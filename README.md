@@ -14,8 +14,7 @@ To avoid version conflicts, install tensorflow version 1.15.0, keras version 2.2
 1. Download this repository
 2. Download the Pre-trained model for FCN-16s from https://drive.google.com/open?id=1x1vT0dWqRruLUoPpcWI3yj04i8Dahfq0
 3. Run .\Webpage_Saliency_Prediction\Prediction_and_Analysis\Model_Performance_on_Test_Images.ipynb
-
-### P.S. For computing AUC, CC and NSS scores, codes are provided in "Prediction_and_Analysis" folder. From "Evaluation Metric Scripts" run the auc_calculation.py for computing AUC score, and cross_correlation_and_nss_calculation.py for calculating CC/NSS score    
+4. For computing AUC, CC and NSS scores, codes are provided in "Prediction_and_Analysis" folder. From "Evaluation Metric Scripts" run the auc_calculation.py for computing AUC score, and cross_correlation_and_nss_calculation.py for calculating CC/NSS score    
 
 
 
