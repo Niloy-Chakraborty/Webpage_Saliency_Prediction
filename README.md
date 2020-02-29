@@ -34,10 +34,10 @@ Run the scripts in folowing order to get the saliency predictions using random f
 
 1. Divide the data set into train and test. Create two folders for the same. Similarly do for the eyefixation maps as well
 2. Run the [saliency.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) script for the training data set. This will create folders for intensity, channel orientation and subchannel conspicuity maps. This script will also give saliency predictions as per itti et al. in a seperate folder.
-3. Run the [DataFileGeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) to generate a data file in csv format. This file carries the information of various conspicuity maps at each pixel of images in the training set.
-4. Run the [DataSegregation.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) file to generate one more csv file which is used by random forest regressor and SVM for generating saliency maps.
-5. Run [saliency.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) and [DataFileGeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) for the test data.
-6. Finally, run the [SVM.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) and [randomForest.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) scripts to get the saliency predictions on the test dataset. 
+3. Run the [datafilegeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) to generate a data file in csv format. This file carries the information of various conspicuity maps at each pixel of images in the training set.
+4. Run the [datasegregation.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) file to generate one more csv file which is used by random forest regressor and SVM for generating saliency maps.
+5. Run [saliency.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) and [datafilegeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) for the test data.
+6. Finally, run the [svm.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) and [randomforest.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Machine_Learninig_Approach) scripts to get the saliency predictions on the test dataset. 
 
 
 
