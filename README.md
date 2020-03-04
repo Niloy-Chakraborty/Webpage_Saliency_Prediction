@@ -21,7 +21,7 @@ install keras version 2.2.5 from [keras](https://keras.io/)
 
 ## B. USING PRE-TRAINED MODEL FOR WEBPAGE SALIENCY ANALYSIS:
 1. Download this repository
-2. Download the Pre-trained model for FCN-16s from [here](https://drive.google.com/open?id=1smxAlcvbkOpRBQb4ClfcAkgfaub6aMgo)
+2. Download the Pre-trained model for FCN-16s from [here](https://drive.google.com/open?id=1-MKN-nQj6NOX-J9P9UOqp5mjqfMynWcC)
 3. Provide correct path for the downloaded model. Run [Model_Performance_on_Test_Images.ipynb](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Prediction_and_Analysis)
 4. For computing AUC, CC and NSS scores, codes are provided in [Prediction_and_Analysis](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Prediction_and_Analysis) folder. From [Evaluation Metric Scripts](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Prediction_and_Analysis/Evaluation%20Metric%20Scripts) run the auc_calculation.py for computing AUC score, and cross_correlation_and_nss_calculation.py for calculating CC/NSS score.
 
@@ -29,7 +29,7 @@ install keras version 2.2.5 from [keras](https://keras.io/)
 1. Download GDI dataset from [here](https://github.com/cvzoya/visimportance/tree/master/data)
 2. Download FiWi dataset from [here](https://www-users.cs.umn.edu/~qzhao/webpage_saliency.html)
 3. From [Model Training Scripts](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts) folder, start training GDI model at first by running "GDI_FCN_TRAIN.ipynb" with GDI dataset. 
-Alternatively this pre-trained model can be downloaded from [here](https://drive.google.com/open?id=1-MKN-nQj6NOX-J9P9UOqp5mjqfMynWcC)
+Alternatively this pre-trained model can be downloaded from [here](https://drive.google.com/open?id=1smxAlcvbkOpRBQb4ClfcAkgfaub6aMgo)
 4. Run [heatmapGeneration.py](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Initial_Data_Preprocessing) from Initial_Data_Preprocessing folder for generating Heatmaps from FiWi eye fixation data, in a sparate folder "finalHeatMap" 
 5. Run "[TestImageGenerator.ipynb"](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/blob/master/Initial_Data_Preprocessing/TestImageGenerator.ipynb) to divide the data set into train and test by randomly separating 8 images from stilumi and generated heatMap. Move thiese folders to the [Evaluation Data](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Prediction_and_Analysis/Evaluation_Data) directory.
 6. After training, start training FiWi data by running "website_saliency_prediction_final.py", from the [same folder](https://github.com/Niloy-Chakraborty/Webpage_Saliency_Prediction/tree/master/Model_Training_Scripts). 
